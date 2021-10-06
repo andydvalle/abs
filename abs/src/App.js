@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import BombButton from "./containers/BombButton";
+import Home from "./containers/Home";
 
 function App() {
   return (
     <div className="App">
-      <BombButton />
+      <Home />
     </div>
   );
 }
