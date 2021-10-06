@@ -1,14 +1,9 @@
-import { useState, useEffect } from "react";
-
-import BombButton from "../components/BombButton";
+import Bomb from "../components/Bomb";
 
 const Home = () => {
-  const [bombId, setBombId] = useState(null);
-
   return (
     <>
-      {bombId}
-      <BombButton bombId={bombId} setBombId={setBombId} />
+      <Bomb />
     </>
   );
 };
